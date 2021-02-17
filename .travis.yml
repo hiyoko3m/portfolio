@@ -1,4 +1,4 @@
-nguage: rust
+language: rust
 os: linux
 dist: xenial
 
@@ -21,9 +21,9 @@ deploy:
   strategy: git
   edge: true
   cleanup: false
-  github-token: $GITHUB_TOKEN
-  local-dir: ./book
-  keep-history: false
+  github_token: $GITHUB_TOKEN
+  local_dir: ./book
+  keep_history: false
   on:
     branch: main
   target_branch: gh-pages
