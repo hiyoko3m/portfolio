@@ -1,5 +1,6 @@
  test:
     name: Test
+    on: push
     runs-on: ubuntu-latest
     services:
       mysql:
