@@ -14,4 +14,4 @@ jobs:
         steps:
             - name: exec sql
               run: |
-                  mysql -h 127.0.0.1 --port 3306 -u root -phoge_password -e "CREATE USER 'test'@'localhost' IDENTIFIED BY 'hogehoge';"
+                  mysql -h 127.0.0.1 --port 3306 -uroot -phoge_password -e "CREATE USER 'test'@'localhost' IDENTIFIED BY 'hogehoge';"
